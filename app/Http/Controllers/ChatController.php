@@ -246,7 +246,7 @@ class ChatController extends Controller
                     'conversation_id' => $conversation->id,
                     'sender_id' => $nurse->id,
                     'sender_type' => 'nurse',
-                    'message' => "Hello! I'm {$nurse->first_name}. How can I help you today?",
+                    'message' => "Hello! I'm Nurse. How can I help you today?",
                     'is_read' => false
                 ]);
             }
